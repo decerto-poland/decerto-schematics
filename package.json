@@ -43,8 +43,5 @@
   "bugs": {
     "url": "https://github.com/decerto-poland/decerto-schematics/issues"
   },
-  "homepage": "https://github.com/decerto-poland/decerto-schematics#readme",
-  "publishConfig": {
-    "registry": "http://localhost:4873"
-  }
+  "homepage": "https://github.com/decerto-poland/decerto-schematics#readme"
 }
