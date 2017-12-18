@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "DecertoSchematicsApp",
+  "title": "Decerto Initial App Schema",
+  "type": "object",
+  "properties": {
+    "sourceDir": {
+      "type": "string",
+      "alias": "dir"
+    },
+    "prefix": {
+      "type": "string",
+      "description": "The prefix to apply to generated selectors.",
+      "default": "app",
+      "alias": "p"
+    }
+  },
+  "required": [
+  ]
+}

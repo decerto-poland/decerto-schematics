@@ -1,0 +1,50 @@
+{
+  "name": "@decerto/schematics",
+  "version": "0.0.1",
+  "description": "Decerto Schematics for Angular",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build",
+    "test": "npm run build && jasmine **/*_spec.js"
+  },
+  "keywords": [
+    "schematics",
+    "decerto",
+    "angular",
+    "rxjs",
+    "ngrx",
+    "redux",
+    "generator"
+  ],
+  "schematics": "./src/collection.json",
+  "dependencies": {
+    "@angular-devkit/schematics": "^0.0.40",
+    "@schematics/angular": "^0.1.9",
+    "steam-resources": "*",
+    "typescript": "^2.5.2"
+  },
+  "devDependencies": {
+    "@angular-devkit/core": "^0.0.22",
+    "@schematics/schematics": "0.0.9",
+    "@types/jasmine": "^2.6.0",
+    "@types/node": "^8.0.31",
+    "jasmine": "^2.8.0",
+    "json": "^9.0.6",
+    "rxjs": "^5.5.4",
+    "semver": "^5.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decerto-poland/decerto-schematics.git"
+  },
+  "author": "Decerto Team",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/decerto-poland/decerto-schematics/issues"
+  },
+  "homepage": "https://github.com/decerto-poland/decerto-schematics#readme",
+  "publishConfig": {
+    "registry": "http://localhost:4873"
+  }
+}
