@@ -39,7 +39,7 @@
     "url": "git+https://github.com/decerto-poland/decerto-schematics.git"
   },
   "author": "Decerto Team",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/decerto-poland/decerto-schematics/issues"
   },
