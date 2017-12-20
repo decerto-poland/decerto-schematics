@@ -1,0 +1,22 @@
+$logo-image: url('./decerto.png');
+$logo-image-width: 100px; // should fit in circle with diameter of ~200px
+$logo-image-height: 100px;
+$primary-color: #005a7d;
+
+.app-loading {
+	$default-stroke-color: #ddd;
+
+	.logo {
+		background-image: $logo-image;
+		background-size: cover;
+		height: $logo-image-height;
+		width: $logo-image-width;
+	}
+
+	.spinner {
+		.path {
+			stroke: mix($primary-color, $default-stroke-color, 50%);
+		}
+
+	}
+}
